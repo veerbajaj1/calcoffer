@@ -1,0 +1,133 @@
+
+{
+    outline: none;
+}
+
+body
+{
+    margin: 0px;
+    background-color: #fcfbff;
+}
+
+body, input, button, h2
+{
+    font-family: 'Muli', sans-serif;
+}
+
+#cover
+{
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+  padding-bottom: 20%;
+    margin: auto;
+}
+
+#form-ui,form , #close-form, #result
+{
+    position: relative;
+}
+
+form
+{
+    width: 290px;
+    height: 40%;
+    padding: 5%;
+  margin:auto;
+  
+    background-color: #fff;
+    box-shadow: 5px -7px 2px rgb(77, 195, 235, 0.3);
+    border-radius: 10px;
+  
+  background-color: #738bdc;
+background-image: linear-gradient(315deg, #738bdc 0%, #48c3eb 74%);
+}
+
+#form-body
+{
+    position: relative;
+    top: 5%;
+    right: 0px;
+    left: 0px;
+    width: 90%;
+  line-height:1.5;
+    margin:auto;
+}
+
+.f-inp input
+{
+    width: 100%;
+    font-size: 13.4px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  text-decoration:none;
+}
+
+.f-inp input::placeholder
+{
+    color: #ffffff;
+  text-decoration:none;
+}
+
+input {
+    background-color: transparent;
+    border-top: 0px solid;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  border-bottom: 1px solid;
+    height: 20px;
+    width: 70%;
+    color: #ffffff;
+  text-decoration:none;
+  font-size:1em;
+  
+}
+
+::placeholder {
+  color:#ffffff;
+  font-size:0.8em;
+}
+
+h2 {
+  color:#7F7F7F;
+}
+
+#result {
+  font-size:2.5em;
+  margin-bottom: 40%;
+  color: #738bdc;
+}
+
+.cal-btn {
+  margin-top:10%;
+  height:auto;
+  text-align:center;
+  background-color:#fff;
+  font-size:1em;
+  color:#0085d8;
+  border-bottom: 0px;
+  border-radius:10px;
+  line-height: 1;
+    cursor: pointer;
+  
+}
+
+input[type=text], input[type=button] {
+  text-decoration:none;
+}
+
+.rf-btn {
+  background-color: #738bdc;
+background-image: linear-gradient(315deg, #738bdc 0%, #48c3eb 74%);
+  font-size:1rem;
+  border-radius:20px;
+  width:20%;
+  height:auto;
+  margin:auto;
+  padding:1%;
+  color:#fff;
+  text-decoration:none;
+ 
+  
+}
